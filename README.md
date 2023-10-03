@@ -34,10 +34,21 @@ alter table student add dept varchar(10);
 ![Screenshot 2023-09-14 093422](https://github.com/Yamunaasri/F2_DBMS/assets/115707860/a5dfed70-a471-4049-8c1e-7a7aa1641c07)
 
 ### 3) Drop the student table
-
 ### SQL QUERY: 
+drop table student;
 ### OUTPUT:
+![image](https://github.com/SivaChandranR07/F2_DBMS/assets/113497395/75f5a6fd-a6b7-433f-92de-3d0db4539e12)
+
 ### 4) Delete the student table using truncate keyword
 ### SQL QUERY: 
+truncate table student;
 ### OUTPUT:
+![image](https://github.com/SivaChandranR07/F2_DBMS/assets/113497395/9f1ce1de-596e-4bca-a705-d45dd6930053)
+
 ### 5) Rename the student table to mystudent
+### SQL QUERY:
+alter table student
+rename to mystudent;
+### OUTPUT:
+![image](https://github.com/SivaChandranR07/F2_DBMS/assets/113497395/f019247a-0d2b-463e-92da-e21bd01ae00a)
+
